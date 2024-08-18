@@ -1,0 +1,111 @@
+@charset "ISO-8859-1";
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+	text-align: center;
+	padding: 20px;
+	color: white;
+	background: rgb(227,23,210);
+	background: linear-gradient(90deg, #b317e3 25%, rgba(0,249,121,1) 100%);
+	margin-bottom: 5vh;
+	text-align: center;
+	
+}
+
+header h1{
+	font-size: 2.5rem;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-style: italic;
+}
+
+h3{
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 30px;
+	color: gold;
+}
+
+#form{
+	width: 30%;
+	margin: auto;
+}
+
+button{
+	padding: 8px 16px;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 10px;
+	cursor: pointer;
+	color: white;
+		
+}
+
+input{
+	outline: none;
+	border: none;
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	font-size: 16px;	
+}
+
+input::placeholder{
+	font-size: 16px;
+	text-align: center;
+}
+
+input:focus::placeholder{
+	color: transparent;
+}
+
+fieldset {
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+button[type="submit"]{
+	font-size: 18px;
+	display: block;
+	margin: auto;
+}
+
+table{
+		margin: 7vh auto 0;
+		text-align: center;
+		width: 80%;
+	    cursor: pointer;
+		background: linear-gradient(130deg, #b317e3 1%, rgba(0,249,121,1) 100%);
+		color: #ffffff;	
+		border-collapse: collapse;
+}
+
+th{
+	padding: 15px 0px;
+}
+
+tr{
+	border-bottom: 1px solid white;
+}
+
+tbody tr:hover{
+    background-color: rgba(0,249,121,0.6);
+    color: white;
+    font-weight: bold;
+}	
+
+
+
+
+
+
+
